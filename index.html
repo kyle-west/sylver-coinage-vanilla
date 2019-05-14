@@ -8,12 +8,27 @@
   <title>Document</title>
 </head>
 <body>
+  <h1>Sylver Coinage in Vanilla JS</h1>
+
+  <blockquote>
+    The two players take turns naming positive integers greater than 1 that are not the 
+    sum of nonnegative multiples of previously named integers. The player who cannot name 
+    such a number loses. For instance, if player A opens with 2, B can win by naming 3. 
+    See the 
+    <a href="https://en.wikipedia.org/wiki/Sylver_coinage" target="_blank" rel="noopener noreferrer">Wikipedia article</a>.
+  </blockquote>
+  
+  <hr>
+  
+  <div id="possibilities"></div>
+  
+  <hr>
   <div id="game-board">
+    <h4>Game Moves</h4>
     <div id="moves"></div>
   </div>
-
-  <div id="possibilities"></div>
-
+  <h1 id="announceWinner"></h1>
+  
   <script src="./game.js"></script>
 </body>
 </html>
