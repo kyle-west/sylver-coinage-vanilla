@@ -1,5 +1,10 @@
 # Vanilla JS version of the Sylver Coinage Combinatorics Game
 
+**_This project was just a proof-of-concept_** See the [latest version written in `ReactJS`](https://github.com/kyle-west/sylver-coinage).
+
+<details>
+<summary>OLD README</summary>
+
 See the game [description](https://en.wikipedia.org/wiki/Sylver_coinage). 
 
 
@@ -10,3 +15,5 @@ This Vanilla Web Application is the effective _game board_ for this game. It is 
 previously named integers (with repetitions being allowed). The person who names 1
 (so ending the game) is the loser. The question is: If player 1 names ‘16’, and both 
 players play optimally thereafter, then who wins?
+
+</details>
